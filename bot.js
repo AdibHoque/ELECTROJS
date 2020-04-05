@@ -28,7 +28,7 @@ const math = require("mathjs")
 const client = new Client({ disableEveryone: true });
 const nclient = require('nekos.life');
 const neko = new nclient();
-const Canvas = require('canvas');
+const Canvas = require('canvas-prebuilt');
 const corona_tracker = require('corona-tracker');
 const db = require('quick.db');
 
