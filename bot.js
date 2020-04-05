@@ -23,7 +23,7 @@ const superagent = require('superagent')
 const ud = require("relevant-urban");
 const nekoapi = require('nekos-image-api')
 const ameClient = require("amethyste-api")
-const ameApi = new ameClient(process.env.AME_TOKEN)
+const ameApi = new ameClient(os.getenv('ameToken'))
 const math = require("mathjs")
 const client = new Client({ disableEveryone: true });
 const nclient = require('nekos.life');
@@ -40,7 +40,7 @@ const applyText = (canvas, text, defaultFontSize) => {
     return ctx.font;
 }; 
 
-const youtube = new YouTube(process.env.YOUTUBE_API_KEY);
+const youtube = new YouTube(os.getenv('YOUTUBEAPIKEY'));
 
 const queue = new Map();
 client.on('warn', console.warn);
@@ -1128,4 +1128,4 @@ function play(guild, song) {
 
 
 
-client.login(process.env.BOT_TOKEN)
+client.login(os.getenv('Token'))
