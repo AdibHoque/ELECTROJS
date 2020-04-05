@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "*",
-    "node": "^10.15.3",
+    "node": "^13.12.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
@@ -36,7 +36,7 @@
     "amethyste-api": "^1.0.1",
     "mathjs": "^6.6.2",
     "nekos.life": "^2.0.5",
-    "canvas-prebuilt": "^2.0.0-alpha.14",
+    "canvas": "^2.3.7",
     "corona-tracker": "^1.0.0"
   }
 }
