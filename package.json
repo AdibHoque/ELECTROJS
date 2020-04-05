@@ -1,7 +1,7 @@
 {
-  "name": "tinimusic",
+  "name": "ELECTROJS",
   "version": "0.6.9",
-  "description": "Music bot for Discord",
+  "description": "ELECTRIFY YOUR DISCORD SERVER",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "*",
+    "node": "*",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
@@ -36,7 +37,6 @@
     "mathjs": "^6.6.2",
     "nekos.life": "^2.0.5",
     "canvas": "^2.6.1",
-    "corona-tracker": "^1.0.0",
-    "bufferutil": "^3.0.3"
+    "corona-tracker": "^1.0.0"
   }
 }
