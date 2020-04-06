@@ -28,17 +28,17 @@ const math = require("mathjs")
 const client = new Client({ disableEveryone: true });
 const nclient = require('nekos.life');
 const neko = new nclient();
-const Canvas = require('canvas');
+// const Canvas = require('canvas');
 const corona_tracker = require('corona-tracker');
 const db = require('quick.db');
 
-const applyText = (canvas, text, defaultFontSize) => {
-    const ctx = canvas.getContext("2d");
-    do {
-        ctx.font = `${defaultFontSize -= 10}px Bold`;
-    } while (ctx.measureText(text).width > 600);
-    return ctx.font;
-}; 
+//   const applyText = (canvas, text, defaultFontSize) => {
+//     const ctx = canvas.getContext("2d");
+//     do {
+//         ctx.font = `${defaultFontSize -= 10}px Bold`;
+//     } while (ctx.measureText(text).width > 600);
+//     return ctx.font;
+// }; 
 
 const youtube = new YouTube(process.env.YOUTUBEAPIKEY);
 
