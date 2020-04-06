@@ -36,7 +36,6 @@
     "amethyste-api": "^1.0.1",
     "mathjs": "^6.6.2",
     "nekos.life": "^2.0.5",
-    "canvas": "^2.6.1",
     "corona-tracker": "^1.0.0"
   }
 }
